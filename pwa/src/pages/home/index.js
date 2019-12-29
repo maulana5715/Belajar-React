@@ -13,10 +13,12 @@ import ForumIcon from "@material-ui/icons/Forum";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import Category from "../../Component/category";
 import HomeCard from "../../Component/Home Card";
+import Icon from "../../Component/icon";
+import BottomNavigation from "../../Component/Bottom Navigation";
 
 function Component() {
   return (
-    <Container maxWidth="xs">
+    <Container maxWidth="xs" style={{ padding: 0 }}>
       <AppBar position="static" style={{ backgroundColor: "blue", padding: 2 }}>
         <Grid container spacing={3} style={{ padding: 5 }}>
           <Grid item xs={8}>
@@ -51,6 +53,10 @@ function Component() {
       <div style={{ padding: 20 }}>
         <Category />
       </div>
+      <div style={{ padding: 20 }}>
+        <Icon />
+      </div>
+      <BottomNavigation />
     </Container>
   );
 }

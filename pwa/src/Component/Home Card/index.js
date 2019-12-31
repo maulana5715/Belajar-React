@@ -35,7 +35,7 @@ function Component() {
             <div style={{ display: "flex" }}>
               <MonetizationOnIcon style={{ color: "orange" }} />
               <Grid>
-                <Typography variant="caption">20 Koin</Typography>
+                <Typography variant="caption">130 Koin</Typography>
               </Grid>
             </div>
 
